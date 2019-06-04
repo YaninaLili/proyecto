@@ -1,5 +1,6 @@
 <nav class="contenedor">
     <h1><h1>Patitas en Acción</h1></h1>
+   
    <nav class="subcontenedor">
    <div>
         <ul><a href="inicio.php">Inicio</a></ul>
