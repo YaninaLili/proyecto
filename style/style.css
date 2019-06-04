@@ -42,3 +42,6 @@ body
 .articulo article{
     color: aliceblue;
 }
+marquee{
+    align-content: unset;
+}

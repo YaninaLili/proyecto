@@ -7,6 +7,8 @@
     <title>En acción</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="imagen/logo.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="java.js"></script>
 </head>
 <body>
     <?php include 'partes/menu.php'; ?>
