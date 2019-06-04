@@ -1,0 +1,44 @@
+body
+{
+    background-image: url(http://images.telemetro.com/internacionales/Estiman-medio-millon-mascotas-abandonadas_MEDIMA20180125_0169_31.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.contenedor{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px;
+    margin: 0px auto;
+    display: flex;
+
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(25, 32, 22);
+}
+.subcontenedor{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px;
+    margin: 3px;
+    background: rgb(39, 133, 156);
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subcontenedor a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.articulo{
+    margin: 10px;
+    padding: 5px 5px;
+    display: flex;
+
+    justify-content: space-between;
+}
+.articulo div{
+    margin: 10px;
+}
+.articulo article{
+    color: aliceblue;
+}
