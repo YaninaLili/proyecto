@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Iniciar sesion</h1>
-    <form action=""></form>
+    <form action="">
 
         <div>
         <label >Correo Electronico o Telefono</label>
@@ -21,7 +21,7 @@
         </div>
 
         <button>Iiniciar sesión</button>
-
+    </form>
 
     <h1>Crear una cuenta</h1>
 

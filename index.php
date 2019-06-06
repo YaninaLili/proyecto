@@ -11,7 +11,7 @@
     <script src="java.js"></script>
 </head>
 <body>
-    <?php include 'partes/menu.php'; ?>
+    <?php include 'menu.php'; ?>
     <div class="articulo">
         <div>
             <article>

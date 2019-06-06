@@ -4,7 +4,7 @@ var listaimg = ["https://cde.publimetro.e3.pe/ima/0/0/1/0/0/100136.jpg", "https:
 
 $(function() {
   
-    setInterval(changeImage, 3000);
+    setInterval(changeImage, 10000);
   
 });
 
