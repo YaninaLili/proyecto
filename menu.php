@@ -3,7 +3,7 @@
    
    <nav class="subcontenedor">
    <div>
-        <ul><a href="inicio.php" class="btn">Inicio</a></ul>
+        <ul><a href="index.php" class="btn">Inicio</a></ul>
     </div>
     <div>
         <ul><a href="Reportes.php">Reportes</a></ul>

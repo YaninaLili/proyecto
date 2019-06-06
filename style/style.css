@@ -5,6 +5,7 @@ body
     background-size:cover;
 }
 .contenedor{
+    position: fixed;
     font-family: 'Times New Roman', Times, serif;
     padding: 8px;
     margin: 0px auto;
