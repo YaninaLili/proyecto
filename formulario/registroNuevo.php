@@ -7,38 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Iniciar sesion</h1>
-    <form action="">
-
-        <div>
-        <label >Correo Electronico o Telefono</label>
-        <input type="text" name="correoTelefono">
-        </div>
-
-        <div>
-        <label >Contraseña</label>
-        <input type="password" name="contraseña">
-        </div>
-
-        <button>Iiniciar sesión</button>
-    </form>
-
     <h1>Crear una cuenta</h1>
-
-
-    <form action="procesarRegistro.php" method ="post">
+    <form action="formulario/procesarRegistro.php" method ="post">
         <div>
-        <input type="text" name="nombre" placeholder="Nombre">
-        <input type="text" name="apellido" placeholder="Apellido">
+        <input type="text" name="n" placeholder="Nombre">
+        <input type="text" name="a" placeholder="Apellido">
+        </div>
+        <div>
+            <input type="text" name="u" placeholder="Nombre de Usuario">
         </div>
         
         <div>
-        <input type="text" name="email" placeholder="Correo Electronico">
+        <input type="text" name="e" placeholder="Correo Electronico">
         </div>
 
         <div>
         <label >sexo</label>
-        <select name="sexo" id="tipoSexo">
+        <select name="s" id="tipoSexo">
             <option >Seleccionar</option>
             <option value="f">Femenino </option>
             <option value="m">Masculino </option>
@@ -47,29 +32,29 @@
         
         <div>
         <label >DNI</label>
-        <input type="text" name="dni">
+        <input type="text" name="d">
         </div>
         
         <div>
         <label >Direccion</label>
-        <input type="text" name="direccion">
+        <input type="text" name="dir">
         </div>
 
         
 
         <div>
         <label >Telefono</label>
-        <input type="text" name="telefono">
+        <input type="text" name="t">
         </div>
 
         <div>
         <label >Contraseña</label>
-        <input type="password" name="contraseña">
+        <input type="password" name="c" placeholder="contraseña">
         </div>
 
         <div>
         <label >Confirmar Contraseña</label>
-        <input type="password" name="confirCon">
+        <input type="password" name="c2" placeholder="Confrmar contraseña">
         </div>
 
         

@@ -3,13 +3,13 @@
    
    <nav class="subcontenedor">
    <div>
-        <ul><a href="index.php" class="btn">Inicio</a></ul>
+        <ul><a href="index.php" >Inicio</a></ul>
     </div>
     <div>
         <ul><a href="Reportes.php">Reportes</a></ul>
     </div>
     <div>
-        <ul><a href="registroUsuario.php">Adopción</a></ul>
+        <ul><a href="login.php">Adopción</a></ul>
     </div>
     <div>
         <ul><a href="esterilizacion.php">Programa de esterilización</a></ul>
