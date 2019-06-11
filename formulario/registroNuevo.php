@@ -10,15 +10,21 @@
     <h1>Crear una cuenta</h1>
     <form action="formulario/procesarRegistro.php" method ="post">
         <div>
-        <input type="text" name="n" placeholder="Nombre">
-        <input type="text" name="a" placeholder="Apellido">
+        <label >Nombre</label>
+        <input type="text" name="n" >
         </div>
+        <div>     <label >Apellido</label>
+        <input type="text" name="a" >
+        </div>
+
         <div>
-            <input type="text" name="u" placeholder="Nombre de Usuario">
+            <label >Nombre de Usuario</label>
+            <input type="text" name="u" >
         </div>
         
         <div>
-        <input type="text" name="e" placeholder="Correo Electronico">
+        <label >Correo Electronico</label>
+        <input type="text" name="e" >
         </div>
 
         <div>

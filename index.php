@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="imagen/logo.ico" type="image/x-icon">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="style/java.js"></script>
+    <link rel="stylesheet" href="formulario/style.css">
 </head>
 <body>
     <?php include 'vistas/menu.php'; ?>
