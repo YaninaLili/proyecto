@@ -6,15 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link rel="stylesheet" href="style/style.css">
-    <style>
-        .contenedorU div{
-            width: 30px;
-        }
-    </style>
 </head>
 <body>
     <?php include 'menu.php';?>
-    <nav class="contenedorU">
+    <nav class="menu">
             <div>
                 <ul><a href="login.php"><?php echo $user->getUsername(); ?> </a></ul>
             </div>
