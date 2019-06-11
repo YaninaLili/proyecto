@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sesiones</title>
-
     <link rel="stylesheet" href="main.css">
+    <style>
+        body
+        {
+            background-image: url(https://www.abogacia.es/wp-content/uploads/2017/05/Tips-que-hacer-con-tu-mascota-cuando-sales-de-viaje-1500x1000.jpg);
+        }
+    </style>
 </head>
 <body>
     <form action="" method="POST">
