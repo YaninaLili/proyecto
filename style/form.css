@@ -1,0 +1,18 @@
+div{
+    margin: 0 auto;
+    text-align: justify;
+    width: 500px;
+    padding: 0 5px 5px 5px;
+   
+}
+input{
+    
+    border-radius: 5px;
+}
+label{
+    margin: 5px;
+}
+
+div{
+    margin:3px;
+}

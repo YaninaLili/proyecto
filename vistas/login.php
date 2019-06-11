@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sesiones</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style/login.css">
     <style>
         body
         {
@@ -14,18 +15,29 @@
     </style>
 </head>
 <body>
+
+
     <form action="" method="POST">
        <?php
             if(isset($errorLogin)){
                 echo $errorLogin;
             }
        ?>
-        <h2>Iniciar sesión</h2>
-        <p>Nombre de usuario: <br>
-        <input type="text" name="username"></p>
-        <p>Password: <br>
-        <input type="password" name="password"></p>
-        <p class="center"><input type="submit" value="Iniciar Sesión"></p>
+      
+        <h1>Iniciar sesión</h1>
+
+        
+            <label >Nombre de usuario:</label>
+            <input type="text" name="username">
+            <label >Password:</label>
+            <input type="password" name="password">
+            <input type="submit" value="Iniciar Sesión">
+        
+        
+      
+       
     </form>
+
+
 </body>
 </html>

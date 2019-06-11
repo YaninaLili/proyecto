@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style/form.css">
 </head>
 <body>
     <h1>Crear una cuenta</h1>
+    
+    
     <form action="formulario/procesarRegistro.php" method ="post">
+   
         <div>
         <label >Nombre</label>
         <input type="text" name="n" >
@@ -66,8 +70,9 @@
         
 
         <button>Registrarte</button>
-
+   
     
     </form>
+
 </body>
 </html>
