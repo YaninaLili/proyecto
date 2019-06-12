@@ -1,3 +1,6 @@
+<?php
+    $pdo = new PDO("mysql:host=localhost;dbname=proyecto;charset=utf8","root","");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,7 @@
 </head>
 <body>
     <h1>Reportar mascotas abandonadas</h1>
-    <form action="procesarReportes.php" method = "post">
+    <form action="formulario/procesarReportes.php" method = "post" enctype="multipart/form-data">
         <h3>Datos de persona que encontró a la mascota:</h2>
             <div>
                 <label>Nombres y Apellidos:</label>
@@ -53,11 +56,15 @@
             </div>
 
             <div>
-                <label>Descripción de estado:</label><br>
-                <textarea name="" id="" cols="30" rows="5"></textarea>
+                <input type="file" name="fotoMascota">
             </div>
 
+            <div>
+                <label>Descripción de estado:</label><br>
+                <textarea name="d" id="" cols="30" rows="5"></textarea>
+            </div>
             <button>Guardar</button>
     </form>
+    
 </body>
 </html>

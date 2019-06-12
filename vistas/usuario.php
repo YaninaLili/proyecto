@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <?php include 'menu.php';?>
+    <?php include 'menu.php';
+        ?>
     <nav class="menu">
             <div>
                 <ul><a href="login.php"><?php echo $user->getUsername(); ?> </a></ul>
@@ -20,5 +21,8 @@
                 <ul><a href="includes/logout.php">Cerrar sesión</a></ul>
             </div>
     </nav>
+    <?php
+        include 'mascotas.php';
+    ?>
 </body>
 </html>
