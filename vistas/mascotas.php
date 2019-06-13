@@ -14,8 +14,10 @@
         foreach($pdo->query("SELECT * FROM reporte" ) as $fila)
         { ?>
         <nav>
+            <a href="formulario/solicitud.php">
             <p><?php echo $fila["tipo"]?></p> 
-            <img src="data:image/png;base64,<?php echo base64_encode($fila["foto"]);?> " width="330" height="344">
+            <img src="data:image/png;base64,<?php echo base64_encode($fila["foto"]);?> " width="630" height="634">
+            </a>
         </nav>  <?php  
         } ?>
     </marquee>

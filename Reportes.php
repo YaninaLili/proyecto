@@ -28,8 +28,8 @@
                 <label>Tipo:</label>
                 <select name="t1" id="tipo">
                     <option value="S">Seleccionar</option>
-                    <option value="P">Perro</option>
-                    <option value="G">Gato</option>
+                    <option value="Perro">Perro</option>
+                    <option value="Gato">Gato</option>
                     <option value="O">Otro</option>
                 </select>
                 <label>Especificar</label>

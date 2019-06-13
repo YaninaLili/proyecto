@@ -15,9 +15,6 @@
                 <ul><a href="login.php"><?php echo $user->getUsername(); ?> </a></ul>
             </div>
             <div>
-                <ul> <a href="formulario/solicitud.php">Solicitud</a></ul>
-            </div>
-            <div>
                 <ul><a href="includes/logout.php">Cerrar sesión</a></ul>
             </div>
     </nav>
