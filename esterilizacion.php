@@ -37,8 +37,6 @@ La mayorí­a de las personas que cruzan a sus perras o gatas tienen buenas inte
 El resultado de la cruza de una perra y su descendencia resulta en el nacimiento de 67,000 perros en 6 años. ¡El resultado de la cruza de una gata y su descendencia resulta en el nacimiento de 420,000 en 7 años!
 
 El problema de la sobrepoblación canina y felina es de una dimensión difí­cil de comprender, sé responsable: esterilizando a tu animal pones un grano de arena y ayudas a evitar el nacimiento de miles de animales en el futuro.
-
-
     </article>
 </body>
 </html>
