@@ -30,7 +30,7 @@
                     <option value="S">Seleccionar</option>
                     <option value="Perro">Perro</option>
                     <option value="Gato">Gato</option>
-                    <option value="Otro">Otro</option>
+                    <option value="O">Otro</option>
                 </select>
                 <label>Especificar</label>
                 <input type="text" name="t2">
