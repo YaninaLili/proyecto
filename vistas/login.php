@@ -17,22 +17,26 @@
 <body>
 
 
+
     <form action="" method="POST">
        <?php
             if(isset($errorLogin)){
                 echo $errorLogin;
             }
        ?>
-      
-        <h1>Iniciar sesión</h1>
+        <div class="padre">
 
-        
+        <h1><h1 >Patitas en Acción</h1></h1>
+    
+            <div class="hijo ">
             <label >Nombre de usuario:</label>
             <input type="text" name="username">
             <label >Password:</label>
             <input type="password" name="password">
-            <input type="submit" value="Iniciar Sesión">
-        
+            <button>Iniciar sesión</button>
+            </div>
+            
+        </div>
         
       
        

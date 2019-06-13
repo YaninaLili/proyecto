@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style/form.css">
+ 
 </head>
 <body>
+    <div class="padre1">
     <h1>Crear una cuenta</h1>
     
     
@@ -59,12 +61,12 @@
 
         <div>
         <label >Contraseña</label>
-        <input type="password" name="c" placeholder="contraseña">
+        <input type="password" name="c">
         </div>
 
         <div>
         <label >Confirmar Contraseña</label>
-        <input type="password" name="c2" placeholder="Confrmar contraseña">
+        <input type="password" name="c2" >
         </div>
 
         
@@ -73,6 +75,7 @@
    
     
     </form>
+    </div>
 
 </body>
 </html>
