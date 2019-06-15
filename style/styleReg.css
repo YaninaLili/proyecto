@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(231, 232, 241);
+}
+
+.padre {
+    display: flex;
+    justify-content: space-around;   
+}
+
+.hijo1 {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.hijo2 {
+    width: 55%;
+
+}
+
+div > label {
+    display: block;
+    margin: 5px;
+    font-weight: bold;
+}
+
+label {
+    margin: 2px;
+    width: 80%;
+    color: black;
+}
+
+input {
+    border-radius: 10px;
+    margin: 2.5px;
+    height: 25px;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+select {
+    border-radius: 10px;
+    margin: 5px;
+    height: 30px;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+    border-radius: 10px;
+    margin: 2px;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    border-radius: 10px;
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#foto {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,18 +1,16 @@
 body{
-    background-color:rgba(216, 233, 232, 0.432);
+    background-color:rgba(216, 233, 232, 0.116);
 }
 input{
-    
-    border-radius: 5px;
-    
+    border-radius: 5px;  
 }
+
 label{
     margin: 5px;
     width: 50%;
     font-weight: bold;
 }
 .padre1{
-    
     font-family: 'Times New Roman', Times, serif;
     display: flex;  
     justify-content: space-around;   
@@ -21,6 +19,7 @@ label{
 .hijo1 h1{
     font-family: 'Times New Roman', Times, serif;
 }
+
 .hijo1 input{
    width: 100%;
 }
@@ -29,10 +28,12 @@ label{
     width: 100%;
     height: 100%;
 }
+
 select{
     padding: 6px;
     border-radius: 5px;
 }
+
 .im{
     margin: 30px;
 }
