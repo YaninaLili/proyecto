@@ -1,7 +1,6 @@
+
 .padre{
     font-family: 'Times New Roman', Times, serif;
-    
-
     display: flex;
    
     justify-content: space-around;
@@ -9,7 +8,7 @@
 }
 .hijo{
     font-family: 'Times New Roman', Times, serif;
-    margin: 20px;
+    margin: 30px;
     text-align: center;
     justify-content: space-around;
   /**  justify-content: flex-end;

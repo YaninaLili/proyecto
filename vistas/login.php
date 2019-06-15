@@ -7,12 +7,7 @@
     <title>Sesiones</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style/login.css">
-    <style>
-        body
-        {
-            background-image: url(https://www.abogacia.es/wp-content/uploads/2017/05/Tips-que-hacer-con-tu-mascota-cuando-sales-de-viaje-1500x1000.jpg);
-        }
-    </style>
+
 </head>
 <body>
 
@@ -26,7 +21,7 @@
        ?>
         <div class="padre">
 
-        <h1><h1 >Patitas en Acción</h1></h1>
+            <h1 >Patitas en Acción</h1>
     
             <div class="hijo ">
             <label >Nombre de usuario:</label>
