@@ -7,6 +7,14 @@ $overwrite = "no";
 $match = "";
 $filesize = $_FILES['f']['size'];
 $filename = strtolower($_FILES['f']['name']);
+    $nombre =$_POST["n"];
+    $apellido = $_POST["a"];
+    $archivo = addslashes(file_get_contents($_FILES["f"]["tmp_name"]));
+
+    $pdo = new PDO("mysql:host=localhost;dbname=proyecto;charset=utf8","root","");  
+    $sql="INSERT INTO solicitud VALUES (NULL,'$nombre','$apellido','$archivo')";
+    $pdo->query($sql);    
+    header("Location: ../index.php?n=3");  
 
 if(!$filename || $filename=="")
 {
@@ -53,6 +61,7 @@ else
         print "ERROR! No ha seleccionado archivo a subir o Puede que el tamaño supere el maximo permitido. Intentelo de nuevo.";
     }
 }
+
 ?>
 <title>Subir Archivos</title>
 <form>

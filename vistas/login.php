@@ -10,9 +10,6 @@
 
 </head>
 <body>
-
-
-
     <form action="" method="POST">
        <?php
             if(isset($errorLogin)){
@@ -20,23 +17,17 @@
             }
        ?>
         <div class="padre">
-
             <h1 >Patitas en Acción</h1>
-    
+
             <div class="hijo ">
-            <label >Nombre de usuario:</label>
-            <input type="text" name="username">
-            <label >Password:</label>
-            <input type="password" name="password">
-            <button>Iniciar sesión</button>
+                <label >Nombre de usuario:</label>
+                <input type="text" name="username">
+                <label >Password:</label>
+                <input type="password" name="password">
+                <button>Iniciar sesión</button>
             </div>
             
         </div>
-        
-      
-       
     </form>
-
-
 </body>
 </html>

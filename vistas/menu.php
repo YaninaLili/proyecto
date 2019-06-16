@@ -1,5 +1,5 @@
 <nav class="contenedor">
-    <h1><h1>Patitas en Acción</h1></h1>
+    <a href="index.php"><h1>Patitas en Acción</h1></a>
    
    <nav class="subcontenedor">
    <div>
@@ -9,6 +9,7 @@
         <ul><a href="Reportes.php">Reportes</a></ul>
     </div>
     <div>
+
         <ul><a href="login.php">Adopción</a></ul>
     </div>
     <div>

@@ -29,4 +29,10 @@ if(isset($_SESSION['user'])){
          <p style="color:red">Las contraseñas no coinciden:Vuelva a intentarlo</p> <?php
     }
 }
+if($userForm =="admin" && $passForm ="123")
+{
+    session_start();
+    $_SESSION["$userForm"] = $userForm;
+    header("Location:admi.php");
+}
 ?>
