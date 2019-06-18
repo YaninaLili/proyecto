@@ -5,7 +5,7 @@
     $direccion =$_POST["dir"];
     $tipo = $_POST["t1"];
     $sexo = $_POST["s"];
-    $fecha = $_POST["f"];
+    $fecha = $_POST["fecha"];
 
     if ($tipo == "otro")
     {
