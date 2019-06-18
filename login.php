@@ -2,8 +2,12 @@
 #PARA EL USUARIO
 if(isset($_GET["n"]))
 {?>
-    <p style="color:red">Su registro has sido exitoso:Inicie sesion por favor</p> <?php
+    <p style="color:red">Su registro has sido exitoso: Inicie sesión por favor</p> <?php
 }
+if(isset($_GET["m"]))
+    {?>
+         <p style="color:red">Las contraseñas no coinciden: Vuelva a intentarlo</p> <?php
+    }
 include_once 'includes/user.php';
 include_once 'includes/user_session.php';
 $userSession = new UserSession();
@@ -25,10 +29,6 @@ if(isset($_SESSION['user'])){
 }else{
     include_once 'vistas/login.php';
     include_once 'formulario/registroNuevo.php';
-    if(isset($_GET["m"]))
-    {?>
-         <p style="color:red">Las contraseñas no coinciden:Vuelva a intentarlo</p> <?php
-    }
 }
 
 ?>

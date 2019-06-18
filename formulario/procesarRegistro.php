@@ -20,7 +20,7 @@
         header("Location:../login.php?m=1");
     }
    
-    $sql="INSERT INTO usuario VALUES(null,'$nombre','$nusuario','$apellido','$dni','$sexo','$direccion','$telefono','$email','$contraseña')";
+    $sql="INSERT INTO usuario VALUES(null,'$nombre','$apellido','$nusuario','$dni','$sexo','$direccion','$telefono','$email','$contraseña')";
     $pdo->query($sql);
     header("Location: ../login.php?n=1");
 ?>

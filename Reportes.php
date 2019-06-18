@@ -32,9 +32,9 @@
                     <label>Tipo:</label>
                     <select name="t1" id="tipo">
                         <option value="S">Seleccionar</option>
-                        <option value="Perro">Perro</option>
-                        <option value="Gato">Gato</option>
-                        <option value="Otro">Otro</option>
+                        <option value="perro">Perro</option>
+                        <option value="gato">Gato</option>
+                        <option value="otro">Otro</option>
                     </select>
                     <label>Especificar:</label>
                     <input type="text" name="t2">

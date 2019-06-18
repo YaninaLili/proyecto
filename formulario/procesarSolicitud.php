@@ -1,7 +1,7 @@
 <?php
 $ubicacion = "cargado/";
 $maxlimit = 50000000;
-$allowed_ext = "rar,jpg,png,mp3,gif,pdf,wma,docx";
+$tipoArch = "rar,jpg,png,mp3,gif,pdf,wma,docx";
 $overwrite = "no";
 
 $match = "";
@@ -13,22 +13,14 @@ if(!$filename || $filename=="")
 {
     $error = "-No haz seleccionado ningun archivo para subir.";
 }
-elseif(file_exists($ubicacion.$filename) && $overwrite =="no")
-{
-    $error = "El archivo $filename ya existe.";
-}
-if($filesize < 1)
-{
-    $error= "-Archivo vacío";
-}
+
 elseif($filesize > $maxlimit)
 {
     $error="-Este archivo supera el maximo tamaño permitido";
 }
 
-$file_ext = preg_split("/\./",$filename);
-$allowed_ext = preg_split("/\./",$allowed_ext);
-foreach ($allowed_ext as $ext) 
+
+foreach ($tipoArch as $ext) 
 {
     if($ext == $file_ext) 
     {
@@ -36,7 +28,7 @@ foreach ($allowed_ext as $ext)
     }
 }
 
-if(!$allowed_ext)
+if(!$tipoArch)
 {
     $error="-Este tipo de archivo no esta permitido: $filename";
 }
@@ -46,7 +38,7 @@ if(isset($_GET['$error']))
 }
 else
 {
-    if(move_uploaded_file($_FILES['f']['tmp_name'],
+    if(move_uploaded_file($_FILES['f']['tmp_name'], 
     $ubicacion.$filename))
     print "$filename se ha subido correctamente";
     else
@@ -61,7 +53,7 @@ $archivo = addslashes(file_get_contents($_FILES["f"]["tmp_name"]));
 $pdo = new PDO("mysql:host=localhost;dbname=proyecto;charset=utf8","root","");  
 $sql="INSERT INTO solicitud VALUES (NULL,'$nombre','$apellido','$archivo')";
 $pdo->query($sql);    
-header("Location: ../index.php?n=3");  
+header("Location: ../login.php?p=3");  
 
 ?>
 <title>Subir Archivos</title>
