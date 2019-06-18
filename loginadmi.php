@@ -34,7 +34,7 @@
         </div>
         
         <div>
-            <img src="https://www.publico.es/uploads/2018/04/12/5acf09ecd664b.jpg" width="900" height="700">
+            <img src="https://www.publico.es/uploads/2018/04/12/5acf09ecd664b.jpg" width="900" height="00">
         </div>
         
     </div>
