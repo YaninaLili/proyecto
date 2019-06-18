@@ -11,5 +11,10 @@
 
         <ul><a href="administrar.php?p=1">Mascotas</a></ul>
     </div>
+    <div>
+        <ul>
+            <a href="logout.php">Finalizar sesión</a>
+        </ul>
+    </div>
    </nav>
 </nav>

@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style/form.css">
-    
 </head>
 <body>
     <div class="padre1">
@@ -40,7 +39,7 @@
             </div>
 
             <div>
-                <label >sexo</label>
+                <label >Sexo</label>
                 <select name="s" id="tipoSexo">
                     <option >Seleccionar</option>
                     <option value="f">Femenino </option>
@@ -72,7 +71,7 @@
                 <label >Confirmar Contraseña</label>
                 <input type="password" name="c2" >
             </div>
-            <button>Registrarte</button>
+            <button>Registrarse</button>
         </form>
         </div>
     </div>

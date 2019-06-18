@@ -1,5 +1,7 @@
+
+<?php 
 #PARA ADMINISTRAR
-<?php $admin= $_POST["u"];
+$admin= $_POST["u"];
 $pass= $_POST["p"];
 if($admin =="admin" && $pass ="123")
 {

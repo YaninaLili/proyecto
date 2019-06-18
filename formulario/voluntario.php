@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+<<<<<<< HEAD
+=======
+    <link rel="stylesheet" href="style/form.css">
+>>>>>>> a45dbc1159a2c822075d338161c08ef652089b72
 
 </head>
 <body>
-    <h1>Inscribete, se voluntario</h1>
+    <h1>Inscríbete, sé voluntario</h1>
     <p>Puedes realizar actividad de voluntariado, para ello debes contar con algunas especificaciones que requerimos(*)</p>
-    <p>* ser veterinario o practicante</p>
-    <p>* Gustar de animales y ser proactivo(Solo secundaria completa a mas)</p>
+    <p>* Ser veterinario o practicante</p>
+    <p>* Gustar de animales y ser proactivo (Solo secundaria completa a más)</p>
     <form action="procesarVoluntario.php" method="post" enctype="multipart/form-data">
         <div>
             <label for="Actividad">Actividad</label>
             <select name="ac">
-                <option value="veterinario">veterinario</option>
+                <option value="veterinario">Veterinario</option>
                 <option value="tecnicoVeterinario">Técnico veterinario</option>
                 <option value="cuidador">Cuidador</option>
             </select>
