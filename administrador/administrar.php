@@ -17,7 +17,7 @@
             <nav>
                 <p><?php echo $fila["nombres"]?></p> 
                 <p><?php echo $fila["apellidos"]?></p> 
-                <a href="cargado">Ver Doc</a>
+                <a href="cargado.php">Ver Doc</a>
             </nav>  <?php  
             } 
         }
@@ -76,6 +76,7 @@
                 <p><?php echo $fila["nick"]?></p> 
                 <p><?php echo $fila["descripcion"]?></p> 
                 <p> <a href="editarMascota.php?id=<?php echo $fila["id"]?>">Editar</a></p>
+                <p> <a href="eliminarMascota.php?id=<?php echo $fila["id"]?>">Adoptado</a> </p>
                 <img src="data:image/png;base64,<?php echo base64_encode($fila["foto"]);?> " width="630" height="634">
             </nav>  <?php  
             } 

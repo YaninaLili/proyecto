@@ -15,7 +15,7 @@
     }
     $pdo = new PDO("mysql:host=localhost;dbname=proyecto;charset=utf8","root","");    
 
-    $sql="INSERT INTO reporte VALUES (NULL,'$nombre','$telefono','$tipo','$sexo','$tamaño','$lugar','$foto','$descripcion')";
+    $sql="INSERT INTO reporte VALUES (NULL,'$nombre','','$telefono','$tipo','$sexo','$tamaño','$lugar','$foto','$descripcion')";
     $pdo->query($sql);    
     header("Location: ../index.php");  
 ?>

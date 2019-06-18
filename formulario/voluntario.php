@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-<<<<<<< HEAD
-=======
     <style>
 
         body {
@@ -54,7 +52,6 @@
         }
     </style>
 
->>>>>>> 7298f7d59572628fc5fad661d6c01b1dc836167d
 </head>
 <body>
 
