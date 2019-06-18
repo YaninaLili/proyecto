@@ -5,11 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-<<<<<<< HEAD
-=======
-    <link rel="stylesheet" href="style/form.css">
->>>>>>> a45dbc1159a2c822075d338161c08ef652089b72
-
 </head>
 <body>
     <h1>Inscríbete, sé voluntario</h1>

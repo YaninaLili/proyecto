@@ -22,8 +22,51 @@
             } 
         }
         if(isset($_GET["n"]))
-        {
+        { ?>
+            <table>
+                <tr>
+                    <th>Actividad</th>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                </tr> <?php
+                foreach($pdo->query("SELECT * FROM voluntario" ) as $fila)
+            {?> 
+                <tr>
+                    <td><?php echo $fila["actividad"]?></td>
+                    <td><?php echo $fila["nombres"]?></td>
+                    <td><?php echo $fila["apellidos"]?></td>
+                </tr> <?php } ?>
+            </table> <?php
+        }
 
+        if(isset($_GET["o"]))
+        { ?>
+           <table>
+               <tr>
+                   <th colspan="4">Datos de La Persona</th>
+                   <th colspan="3">Datos De Mascota</th>
+                   <tr>
+                        <th>Nombres</th>
+                        <th>Apellidos</th>
+                        <th>DNI</th>
+                        <th>Direccion</th>
+                        <th>Tipo</th>
+                        <th>Sexo</th>
+                        <th>Fecha</th>
+                   </tr>
+               </tr><?php
+               foreach ($pdo -> query("SELECT * FROM cita") as $fila) {?>
+               <tr>                   
+                    <td > <?php echo $fila["nombre"]?></td>
+                    <td><?php echo $fila["apellido"]?></td>
+                    <td><?php echo $fila["dni"]?></td>
+                    <td><?php echo $fila["direccion"]?></td>
+                    <td><?php echo $fila["tipo"]?></td>
+                    <td><?php echo $fila["sexo"]?></td>
+                    <td><?php echo $fila["fecha"]?></td> 
+               </tr> <?php
+            }  ?>
+           </table> <?php
         }
         if(isset($_GET["p"]))
         {
