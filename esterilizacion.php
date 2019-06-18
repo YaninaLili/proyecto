@@ -24,10 +24,10 @@
                 <a href="formulario/voluntario.php">Ser Voluntario</a>
             </div>
             <div>
-                <a href="cita.php">Solicitar cita</a>
+                <a href="formulario/cita.php">Solicitar cita</a>
             </div>
             <div>
-                <a href="donar.php">Donar</a>
+                <a href="formulario/donar.php">Donar</a>
             </div>
         </nav>
     </header>
