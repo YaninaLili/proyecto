@@ -15,5 +15,8 @@
     <div>
         <ul><a href="esterilizacion.php">Programa de esterilización</a></ul>
     </div>
+    <div>
+        <ul><a href="loginadmi.php">Administrar</a></ul>
+    </div>
    </nav>
 </nav>

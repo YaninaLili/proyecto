@@ -1,4 +1,5 @@
 <?php
+#PARA EL USUARIO
 if(isset($_GET["n"]))
 {?>
     <p style="color:red">Su registro has sido exitoso:Inicie sesion por favor</p> <?php
@@ -29,10 +30,5 @@ if(isset($_SESSION['user'])){
          <p style="color:red">Las contraseñas no coinciden:Vuelva a intentarlo</p> <?php
     }
 }
-if($userForm =="admin" && $passForm ="123")
-{
-    session_start();
-    $_SESSION["$userForm"] = $userForm;
-    header("Location:admi.php");
-}
+
 ?>
