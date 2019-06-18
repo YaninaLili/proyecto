@@ -1,7 +1,5 @@
-div > label {
-    display: block;
-    margin: 5px;
-    font-weight: bold;
+body {
+    background-color:beige;
 }
 
 label {

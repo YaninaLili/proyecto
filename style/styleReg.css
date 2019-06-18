@@ -19,12 +19,6 @@ body {
 
 }
 
-div > label {
-    display: block;
-    margin: 5px;
-    font-weight: bold;
-}
-
 label {
     margin: 2px;
     width: 80%;

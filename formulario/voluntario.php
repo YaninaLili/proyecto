@@ -8,6 +8,10 @@
 <<<<<<< HEAD
 =======
     <style>
+
+        body {
+            background-color: skyblue;
+        }
         div > label {
             display: block;
             margin: 5px;
@@ -57,7 +61,7 @@
     <form action="procesarVoluntario.php" method="post" enctype="multipart/form-data">
         <div class="padre">
             <div>
-                <img src="https://www.expoknews.com/wp-content/uploads/2018/06/Me%CC%81xico-primer-lugar-con-animales-en-situacio%CC%81n-de-calle2.jpg"   width="850" height="650">
+                <img src="https://img.elcomercio.pe/files/ec_article_multimedia_gallery/uploads/2017/05/16/591aa86ee9bb4.jpeg"   width="850" height="650">
             </div>
 
             <div>   

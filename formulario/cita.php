@@ -7,6 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="style/styleCita.css">
     <style>
+        body {
+            background-color:darkkhaki;
+        }
+
+        h2 {
+            text-align:center;
+        }
         div > label {
             display: block;
             margin: 5px;
