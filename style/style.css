@@ -45,6 +45,11 @@ body
     text-decoration: none;
 }
 
+.art {
+    margin: 20px;
+    background: 1px solid;
+}
+
 /* ESTILO PARA LA VENTANA DEL USUARIO */
 .menu div ul, .esterilazar div{
     list-style-type: none;

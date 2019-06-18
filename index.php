@@ -20,7 +20,7 @@
                 <img src="http://www.chacohoy.com/files/imagenes/25072018191831.jpg">
             </article> 
         </div>
-        <div>
+        <div class="art">
              <article>
                 Somos una organizacion sin fines de lucro cuya finalidad es encontrar un hogar a mascotas
                 que han sufrido abandono o ayudar a aquellas personas que no encuentran espacio por número.
